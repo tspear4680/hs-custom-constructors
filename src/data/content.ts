@@ -8,8 +8,8 @@ export const company = {
 };
 
 export const home = {
-  heroHeadline: "Building. Maintaining. Improving",
-  heroSublines: ["Quality work you can count on.", "Built with skill, backed by integrity."],
+  heroHeadline: "Built for your family, by our family.",
+  heroSublines: ["Custom homes, additions, roofing, outdoor living and more."],
   ctaHeading: "Turning Dreams into Reality",
   heroImageUrl:
     "https://res.cloudinary.com/n6bpxgnw/image/upload/v1786905238/Gemini_Generated_Image_96rfxq96rfxq96rf_gzdbxg.jpg",
