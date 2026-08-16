@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hs-custom-constructors
+    runtime: node
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: REPLICATE_API_TOKEN
+        sync: false
