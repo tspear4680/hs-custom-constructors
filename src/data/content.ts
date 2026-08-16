@@ -11,6 +11,8 @@ export const home = {
   heroTagline:
     "Welcome to our hub of construction and maintenance excellence! We're here to help you build and maintain with confidence, ensuring your projects are successful from the ground up.",
   ctaHeading: "Turning Dreams into Reality",
+  heroImageUrl:
+    "https://res.cloudinary.com/n6bpxgnw/image/upload/v1786133532/hscustommena_temp_main_page_background_t5liyw.webp",
 };
 
 export const about = {

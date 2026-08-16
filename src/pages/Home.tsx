@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import { company, home } from "../data/content";
-import { heroPlaceholder } from "../data/placeholders";
 
 export default function Home() {
   return (
     <div>
       <section className="relative">
         <img
-          src={heroPlaceholder}
-          alt="Placeholder construction project"
+          src={home.heroImageUrl}
+          alt="H&S Custom Constructors project"
           className="h-[60vh] w-full object-cover md:h-[70vh]"
         />
         <div className="absolute inset-0 flex items-center bg-charcoal-900/70">

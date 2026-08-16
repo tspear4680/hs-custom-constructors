@@ -1,9 +1,6 @@
 // Placeholder imagery only — swap these for real project photos before launch.
 // Using picsum.photos seeded URLs so each placeholder is stable and distinct.
 
-export const heroPlaceholder =
-  "https://picsum.photos/seed/hs-hero/1600/900";
-
 export const aboutPlaceholders = {
   builtHomes: "https://picsum.photos/seed/hs-built-homes/800/600",
   remodels: "https://picsum.photos/seed/hs-remodels/800/600",
