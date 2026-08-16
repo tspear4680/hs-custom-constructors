@@ -8,8 +8,8 @@ export const company = {
 };
 
 export const home = {
-  heroTagline:
-    "Welcome to our hub of construction and maintenance excellence! We're here to help you build and maintain with confidence, ensuring your projects are successful from the ground up.",
+  heroHeadline: "Building. Maintaining. Improving",
+  heroSublines: ["Quality work you can count on.", "Built with skill, backed by integrity."],
   ctaHeading: "Turning Dreams into Reality",
   heroImageUrl:
     "https://res.cloudinary.com/n6bpxgnw/image/upload/v1786905238/Gemini_Generated_Image_96rfxq96rfxq96rf_gzdbxg.jpg",
