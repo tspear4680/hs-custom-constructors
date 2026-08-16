@@ -52,6 +52,21 @@ npm run build
 npm run preview
 ```
 
+## Deploying (Render)
+
+This runs as a **single combined service** in production — `npm start` runs the same
+Express server that serves the built static frontend (`dist/`) *and* the `/api/remodel`
+route, so there's nothing to split across two hosts.
+
+1. Push this repo to GitHub.
+2. On [render.com](https://render.com) → New → Web Service → connect the repo. It
+   should auto-detect `render.yaml` (Starter plan, `npm install && npm run build` /
+   `npm start`).
+3. Add `REPLICATE_API_TOKEN` in Render's dashboard (Environment tab) once you're ready
+   to turn on the AI remodel tool — it's optional, everything else works without it.
+4. Render gives you a preview URL (`*.onrender.com`) to review before pointing the real
+   `hscustommena.com` DNS at it.
+
 ## Project structure
 
 ```
