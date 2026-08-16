@@ -10,9 +10,9 @@ export default function Home() {
           alt="H&S Custom Constructors project"
           className="h-[60vh] w-full object-cover md:h-[70vh]"
         />
-        <div className="absolute inset-x-0 bottom-0 border-t-4 border-steel-600 bg-brand-700/80 py-1 shadow-lg md:py-1.5">
-          <div className="mx-auto max-w-3xl px-4 text-center text-steel-200">
-            <p className="text-sm leading-relaxed md:text-base">{home.heroTagline}</p>
+        <div className="absolute inset-x-0 bottom-0 border-t-4 border-steel-600 bg-brand-500/85 py-1 shadow-lg md:py-1.5">
+          <div className="mx-auto max-w-3xl px-4 text-center text-steel-900">
+            <p className="text-sm font-bold leading-relaxed md:text-base">{home.heroTagline}</p>
           </div>
         </div>
       </section>
