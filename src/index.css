@@ -25,6 +25,17 @@
   --color-charcoal-700: #2f2f37;
   --color-charcoal-800: #202026;
   --color-charcoal-900: #17171b;
+
+  --color-steel-50: #eef4f8;
+  --color-steel-100: #d7e6f0;
+  --color-steel-200: #b0cee0;
+  --color-steel-300: #82b0cc;
+  --color-steel-400: #5590b3;
+  --color-steel-500: #386f92;
+  --color-steel-600: #2c5a78;
+  --color-steel-700: #234860;
+  --color-steel-800: #1c3a4d;
+  --color-steel-900: #152a38;
 }
 
 body {
