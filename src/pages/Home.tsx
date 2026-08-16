@@ -10,9 +10,9 @@ export default function Home() {
           alt="H&S Custom Constructors project"
           className="h-[60vh] w-full object-cover md:h-[70vh]"
         />
-        <div className="absolute inset-0 flex items-center bg-charcoal-900/70">
+        <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 border-y-2 border-brand-500 bg-charcoal-900/95 py-6 shadow-lg md:py-8">
           <div className="mx-auto max-w-3xl px-4 text-center text-white">
-            <p className="text-lg leading-relaxed drop-shadow-md md:text-xl">{home.heroTagline}</p>
+            <p className="text-lg leading-relaxed md:text-xl">{home.heroTagline}</p>
           </div>
         </div>
       </section>
